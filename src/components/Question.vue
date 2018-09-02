@@ -1,6 +1,6 @@
 <template>
   <div class="card" id="question">
-    <div class="card-header">
+    <div class="card-header bg-primary text-white">
       <h3 class="card-title text-center">{{ question }}</h3>
     </div>
     <div class="card-body answer-body">
@@ -92,6 +92,10 @@
 
   #question {
     display: flex;
+    text-shadow: 0 0 5px #000;
+    font-family: Arial, sans-serif;
+    background: #ced4das;
+    box-shadow: 0 0 50px #EB6864;
   }
 
   .answer-body {
@@ -101,6 +105,6 @@
   }
 
   .btn {
-    text-shadow: 0 0 3px #000;
+    text-shadow: 0 0 5px #000;
   }
 </style>

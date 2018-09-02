@@ -1,6 +1,7 @@
 # The Super Quiz
 
 > A Vue.js project - animations, transitions
+> Demo http://185.228.232.41/projects/super_quiz_vue/
 
 ## Build Setup
 

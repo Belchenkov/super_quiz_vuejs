@@ -1,7 +1,7 @@
 <template>
   <div class="container" id="app">
     <div class="row">
-        <h1 class="text-center">The Super Quiz</h1>
+        <h1 class="header text-center">The Super Quiz</h1>
         <hr>
     </div>
     <hr>
@@ -47,6 +47,14 @@ export default {
 </script>
 
 <style>
+  body {
+    background: url("./assets/img/wavy-dots.png");
+
+  }
+  .header {
+    font-family: Algerian, sans-serif;
+  }
+
   #app {
     display: flex;
     flex-direction: column;
@@ -54,7 +62,7 @@ export default {
     align-items: center;
     width: 100vw;
     height: 100vh;
-    padding-bottom: 250px;
+    margin-top: -100px;
   }
 
   .flip-enter {
