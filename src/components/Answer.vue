@@ -5,8 +5,11 @@
     <button class="btn btn-info" @click="onNextQuestion">Next Question</button>
   </div>
 </template>
-<style>
-
+<style scoped>
+  .alert-success {
+    width: 600px;
+    height: 150px;
+  }
 </style>
 <script>
 
